@@ -49,7 +49,7 @@
         main {
             padding: 50px 0;
         }
-        
+
         .title {
             text-align: center;
             text-transform: uppercase;
@@ -71,7 +71,7 @@
     </header>
 
     <main class="container">
-        <h1 class="title">Hello World!</h1>
+        <h1 class="title">{{ $title }}</h1>
     </main>
 </body>
 </html>
