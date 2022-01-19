@@ -18,3 +18,9 @@ Route::get('/', function () {
         'title'=>'Hello World!'
     ]);
 });
+
+Route::get('/about-us', function () {
+    return view('about', [
+        'title'=>'About Us'
+    ]);
+})->name('about');
